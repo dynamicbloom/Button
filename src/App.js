@@ -1,13 +1,18 @@
 import React from 'react';
-import './App.css';
-import Button from "./components/Button";
 
-function App() {
-  return (
-      <div className="App">
-        <Button/>
-      </div>
-  );
+function clickMe() {
+    alert('Hello World!')
+
 }
 
-export default App;
+export default function App() {
+    return (
+        <div>
+            <button onClick={clickMe}>
+                Click
+            </button>
+        </div>
+
+    );
+
+}
