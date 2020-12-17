@@ -13,7 +13,7 @@ const Button = styled.button`
 `;
 
 function clickMe() {
-    alert('Hello World! I am Alive')
+    alert('Hello World! I am Dead')
 }
 
 export default function App() {
