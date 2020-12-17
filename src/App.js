@@ -14,6 +14,7 @@ const Button = styled.button`
 
 function clickMe() {
     alert('Happy World! I am Alive')
+    alert('Hello World! I am Dead, or I do not know')
 }
 
 export default function App() {
