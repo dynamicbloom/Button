@@ -11,7 +11,7 @@ const theme = {
 const Button = styled.button`
   background-color: ${props => theme[props.theme].default};
   color: white;
-  padding: 10px 60px;
+  padding: 10px 55px;
   border-radius: 5px;
   font-size: 20px;
   outline: 0;
